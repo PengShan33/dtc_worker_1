@@ -1,8 +1,6 @@
 package com.dtc.java.analytic.V2.common.constant;
 
 /**
- * Created on 2020-02-15
- *
  * @author :hao.li
  */
 public class PropertiesConstants {
@@ -75,6 +73,8 @@ public class PropertiesConstants {
 
     public static final String CHAR_UTF8 = "UTF-8";
 
+    public static final String ALARM_CONVERGENCE="dtc.alarm.convergence.times";
+
 
     /**
      * default value
@@ -133,5 +133,11 @@ public class PropertiesConstants {
     public static final String MYSQL_USERNAME = "mysql.username";
     public static final String MYSQL_ALAEM_TABLE = "mysql.alarm_rule_table";
     public static final String MYSQL_WINDOWS_TABLE = "mysql.windows_disk_sql";
+
+    //redis
+    public static final String REDIS_IP="dtc.redis.ip";
+    public static final String REDIS_PORT="dtc.redis.port";
+    public static final String REDIS_PW="dtc.redis.pw";
+
 
 }
